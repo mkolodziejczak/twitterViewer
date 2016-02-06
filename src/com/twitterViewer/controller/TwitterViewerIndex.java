@@ -44,8 +44,8 @@ public class TwitterViewerIndex {
 		StringBuilder viewVar = new StringBuilder();
 		String viewString="";
 		Twitter twitter = new TwitterFactory().getInstance();
-	    AccessToken accessToken = new AccessToken("4858356423-p5buN7zTF59SlOpMMqwux6rIAUyBT4v2YWdpGPs", "q2xWqiwHMzIpoMXgMhNJI4UhCTEOAzGKVEjpUuTit7kyn");
-	    twitter.setOAuthConsumer("8r1bWUiYIpoDBvUiZn4mPpNCi", "wJnlrl94XYxjY9FwEGWmCMzfeXk3XcuY8FYUCLD1EyXIywdI4b");
+	    AccessToken accessToken = new AccessToken("AccessToken", "AccessTokenSecret");
+	    twitter.setOAuthConsumer("ConsumerKey", "ConsumerSecret");
 	    twitter.setOAuthAccessToken(accessToken);
 
 	    try {
